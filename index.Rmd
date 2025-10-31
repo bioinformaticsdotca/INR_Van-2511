@@ -1,6 +1,6 @@
 --- 
 title: "Introduction to R 2025"
-author: "Faculty: Rodolfo Lourenzutti,Ido Hatam"
+author: "Faculty: Rodolfo Lourenzutti, Ido Hatam"
 date: "November 6–7, 2025"
 site: bookdown::bookdown_site
 documentclass: book
@@ -8,7 +8,7 @@ bibliography: [book.bib, packages.bib]
 url: https://bioinformaticsdotca.github.io/INR_Van-2511/ 
 cover-image: img/bioinformatics_logo.png
 description: |
-  Workshop website for the 2025 Introduction to R Canadian Bioinformatics Workshop
+  Workshop website for the 2025 Introduction to R Vancouver Canadian Bioinformatics Workshop
 link-citations: yes
 github-repo: bioinformaticsdotca/INR_Van-2511
 favicon: img/favicon.ico
@@ -18,7 +18,7 @@ favicon: img/favicon.ico
 
 # Workshop Info
 
-Welcome to the 2025 Introduction to R Canadian Bioinformatics Workshop webpage!  
+Welcome to the 2025 Vancouver Introduction to R Canadian Bioinformatics Workshop webpage!  
 
 ## Pre-work
 
