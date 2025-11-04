@@ -1,14 +1,52 @@
 # Meet Your Faculty
 
-<!--#### NAME
+#### Rodolfo Lourenzutti  
 
-<img src="./img/faculty/MISSINGHEADSHOT.PNG" width="200" alt="Photo of NAME">
+<img src="./img/faculty/INR_Van-RodolfoLourenzutti.PNG" width="200" alt="Photo of Rodolfo Lourenzutti">
 
->JOB TITLE <br>
-INSTITUTION <br>
-LOCATION
+>Associate Professor of Teaching <br>
+University of British Columbia <br>
+Vancouver, British Columbia, Canada
 >
-> --- CONTACT INFO, IF PROVIDED
+> --- lourenzutti@stat.ubc.ca
 
-BIO GOES HERE-->
+Rodolfo Lourenzutti is an Associate Professor of Teaching in the Department of Statistics at the University of British Columbia (UBC) and plays an active role in UBC's Master of Data Science (MDS) program. He holds a Ph.D. in Computer Science and an M.Sc. in Statistics. Rodolfo is passionate about data analysis and information extraction. He is also dedicated to teaching data science to individuals from diverse backgrounds, as he believes that different perspectives lead to varied questions about problems, ultimately enhancing our ability to extract more information from the data.
+
+#### Ido Hatam   
+
+<img src="./img/faculty/INR_Van-IdoHatam.PNG" width="200" alt="Photo of Ido Hatam">
+
+>Principal investigator <br>
+Langara College <br>
+Vancouver, British Columbia, Canada  
+>
+> --- ihatam@langara.ca  
+
+Dr. Ido Hatam holds a PhD in microbiology and biotechnology from the University of Alberta and serves as an Instructor in the Department of Biology and Bioinformatics program at Langara College, where he is also a Principal Investigator at the College's Applied Research Center. Dr. Hatam has developed multiple courses for the College's Bioinformatics program focused on using R-based tools to analyze high-throughput biological data. His research group uses bioinformatics tools to construct and analyze synthetic microbial communities, and specializes in "Guerrilla Bioinformatics" - generating value-added knowledge through meta-analysis of large, publicly available biological datasets.  
+
+#### Gareth Tang    
+
+<img src="./img/faculty/INR_Van-GarethTang.JPG" width="200" alt="Photo of Gareth Tang">
+
+Gareth Tang graduated with a Bachelor’s degree in bioinformatics from Langara College in 2025. In his final year of studies, he collaborated with his fellow graduates to implement and benchmark a pipeline performing metagenomics assembly and annotation. In doing so, his cohort was able to apply the R programming skills and knowledge of bioinformatics tools they had developed during the program.  
+
+#### Mike Wu    
+
+<img src="./img/faculty/INR_Van-SiwenWu.PNG" width="200" alt="Photo of Mike Wu">
+
+>PhD Student <br>
+UBC <br>
+Vancouver, BC
+>
+> --- mikewu@langara.ca
+
+Mike Wu is a recent graduate from Langara College with a Bachelor of Science in Bioinformatics. He is now doing his graduate studies at UBC in bioinformatics (specialized in machine learning in metabolomics). Mike has hands-on experience in a couple of bioinformatics projects, including single-cell RNA seq pipeline, metagenomics assembly and annotation, and blastInR package development, where R programming is mainly used for app development, data analysis, and pipeline construction.  
+
+#### Gavin Ieong   
+
+<img src="./img/faculty/INR_Van-GavinIeong.PNG" width="200" alt="Photo of Gavin Ieong">
+
+> Richmond, BC, Canada
+
+Gavin Ieong is a recent graduate in the Bachelor’s of Bioinformatics Program at Langara College. During his studies, he contributed to projects at the college’s Applied Research Centre, applying his background in biology and machine learning to real-world biological problems.
 
