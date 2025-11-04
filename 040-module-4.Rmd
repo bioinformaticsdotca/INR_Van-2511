@@ -1,6 +1,7 @@
 # Module 4
 
-## Lecture
-
+## Lecture  
+<i>Module 4 begins at slide 30</i>
+<iframe src="https://docs.google.com/presentation/d/1tMGQ4NhuKsu_ysldF2xokmMnxNwzVV7b/preview" width="640" height="480" allow="autoplay"></iframe>
 
 ## Lab
