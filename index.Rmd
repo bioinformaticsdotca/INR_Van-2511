@@ -22,7 +22,7 @@ Welcome to the 2025 Vancouver Introduction to R Canadian Bioinformatics Workshop
 
 ## Pre-work
 
-<!--[You can find your pre-work here.](LINK TO PREWORK)-->
+[You can find your pre-work here.](https://docs.google.com/forms/d/e/1FAIpQLSfLqRvKr7HUh4GlOuyVT4jgrpZOmkQDWoM-9CE9Z3kE0orY5g/viewform?usp=header)
 
 ## Class Photo
 
