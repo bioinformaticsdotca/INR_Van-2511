@@ -452,5 +452,7 @@ Gavin Ieong is a recent graduate in the Bachelor’s of Bioinformatics Program a
 
 ## Lab
 
+[lab](https://drive.google.com/file/d/1IVvxmxVBcBsg54uXSc8i6Fa_jG2pbwkh/view?usp=drive_link)
+
 <!--chapter:end:040-module-4.Rmd-->
 
