@@ -1,0 +1,218 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{book}
+\usepackage{amsmath,amssymb}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{5}
+\usepackage{booktabs}
+
+\usepackage{color}
+\usepackage{framed}
+\setlength{\fboxsep}{.8em}
+
+% These colours were manually entered, they shouldn't matter unless you want pdf output
+
+\newenvironment{redbox}{
+  \definecolor{shadecolor}{RGB}{243, 154, 157}
+  \color{white}
+  \begin{shaded}}
+ {\end{shaded}}
+
+\newenvironment{bluebox}{
+  \definecolor{shadecolor}{RGB}{172, 210, 237}
+  \color{white}
+  \begin{shaded}}
+ {\end{shaded}}
+
+\newenvironment{greenbox}{
+  \definecolor{shadecolor}{RGB}{141, 181, 128}
+  \color{white}
+  \begin{shaded}}
+ {\end{shaded}}
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\usepackage[]{natbib}
+\bibliographystyle{plainnat}
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  pdftitle={Introduction to R 2025},
+  pdfauthor={Faculty: Rodolfo Lourenzutti, Ido Hatam},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\title{Introduction to R 2025}
+\author{Faculty: Rodolfo Lourenzutti, Ido Hatam}
+\date{November 6--7, 2025}
+
+\begin{document}
+\maketitle
+
+{
+\setcounter{tocdepth}{1}
+\tableofcontents
+}
+\part{Introduction}\label{part-introduction}
+
+\chapter{Workshop Info}\label{workshop-info}
+
+Welcome to the 2025 Vancouver Introduction to R Canadian Bioinformatics Workshop webpage!
+
+\section{Pre-work}\label{pre-work}
+
+\href{https://docs.google.com/forms/d/e/1FAIpQLSfLqRvKr7HUh4GlOuyVT4jgrpZOmkQDWoM-9CE9Z3kE0orY5g/viewform?usp=header}{You can find your pre-work here.}
+
+\section{Class Photo}\label{class-photo}
+
+Coming soon!
+
+\section{Schedule}\label{schedule}
+
+\chapter{Meet Your Faculty}\label{meet-your-faculty}
+
+\subsubsection{Rodolfo Lourenzutti}\label{rodolfo-lourenzutti}
+
+\begin{quote}
+Associate Professor of Teaching
+University of British Columbia
+Vancouver, British Columbia, Canada
+
+--- \href{mailto:lourenzutti@stat.ubc.ca}{\nolinkurl{lourenzutti@stat.ubc.ca}}
+\end{quote}
+
+Rodolfo Lourenzutti is an Associate Professor of Teaching in the Department of Statistics at the University of British Columbia (UBC) and plays an active role in UBC's Master of Data Science (MDS) program. He holds a Ph.D.~in Computer Science and an M.Sc. in Statistics. Rodolfo is passionate about data analysis and information extraction. He is also dedicated to teaching data science to individuals from diverse backgrounds, as he believes that different perspectives lead to varied questions about problems, ultimately enhancing our ability to extract more information from the data.
+
+\subsubsection{Ido Hatam}\label{ido-hatam}
+
+\begin{quote}
+Principal investigator
+Langara College
+Vancouver, British Columbia, Canada
+
+--- \href{mailto:ihatam@langara.ca}{\nolinkurl{ihatam@langara.ca}}
+\end{quote}
+
+Dr.~Ido Hatam holds a PhD in microbiology and biotechnology from the University of Alberta and serves as an Instructor in the Department of Biology and Bioinformatics program at Langara College, where he is also a Principal Investigator at the College's Applied Research Center. Dr.~Hatam has developed multiple courses for the College's Bioinformatics program focused on using R-based tools to analyze high-throughput biological data. His research group uses bioinformatics tools to construct and analyze synthetic microbial communities, and specializes in ``Guerrilla Bioinformatics'' - generating value-added knowledge through meta-analysis of large, publicly available biological datasets.
+
+\subsubsection{Gareth Tang}\label{gareth-tang}
+
+Gareth Tang graduated with a Bachelor's degree in bioinformatics from Langara College in 2025. In his final year of studies, he collaborated with his fellow graduates to implement and benchmark a pipeline performing metagenomics assembly and annotation. In doing so, his cohort was able to apply the R programming skills and knowledge of bioinformatics tools they had developed during the program.
+
+\subsubsection{Mike Wu}\label{mike-wu}
+
+\begin{quote}
+PhD Student
+UBC
+Vancouver, BC
+
+--- \href{mailto:mikewu@langara.ca}{\nolinkurl{mikewu@langara.ca}}
+\end{quote}
+
+Mike Wu is a recent graduate from Langara College with a Bachelor of Science in Bioinformatics. He is now doing his graduate studies at UBC in bioinformatics (specialized in machine learning in metabolomics). Mike has hands-on experience in a couple of bioinformatics projects, including single-cell RNA seq pipeline, metagenomics assembly and annotation, and blastInR package development, where R programming is mainly used for app development, data analysis, and pipeline construction.
+
+\subsubsection{Gavin Ieong}\label{gavin-ieong}
+
+\begin{quote}
+Richmond, BC, Canada
+\end{quote}
+
+Gavin Ieong is a recent graduate in the Bachelor's of Bioinformatics Program at Langara College. During his studies, he contributed to projects at the college's Applied Research Centre, applying his background in biology and machine learning to real-world biological problems.
+
+\part{Modules}\label{part-modules}
+
+\chapter{Module 1}\label{module-1}
+
+\section{Lecture}\label{lecture}
+
+\section{Lab}\label{lab}
+
+\href{https://drive.usercontent.google.com/u/0/uc?id=1BQrmiW0-ggCC6irjQQJmsR-2-6DwS6JI&export=download}{lab1}
+
+\chapter{Module 2}\label{module-2}
+
+\section{Lecture}\label{lecture-1}
+
+\section{Lab}\label{lab-1}
+
+\href{https://drive.usercontent.google.com/u/0/uc?id=10pOLjaNvTRg4bfQzI0K_r6eNZNARcWDS&export=download}{lab2}
+
+\chapter{Module 3}\label{module-3}
+
+\section{Lecture}\label{lecture-2}
+
+\section{Lab}\label{lab-2}
+
+\href{https://drive.google.com/file/d/1r11QPe1rZNZIvcHSJ2lywbaf8gBC6rrc/view?usp=drive_link}{lab}
+
+\chapter{Module 4}\label{module-4}
+
+\section{Lecture}\label{lecture-3}
+
+Module 4 begins at slide 30
+
+\section{Lab}\label{lab-3}
+
+  \bibliography{book.bib,packages.bib}
+
+\end{document}
